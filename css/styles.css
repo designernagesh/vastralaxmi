@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing:border-box}
+@font-face {
+	font-family: 'ROCK';
+	src: url('../fonts/ROCK.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/ROCK.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ 
+	url('../fonts/ROCK.woff') format('woff'), /* Modern Browsers */ 
+	url('../fonts/ROCK.ttf') format('truetype'), /* Safari, Android, iOS */ 
+	url('../fonts/ROCK.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;
+}
+body{margin:0; padding:0; color:#4D4D4F; font: normal 16px/24px Verdana, Arial, Helvetica, sans-serif;
+	background-image: url(../images/bg-top.gif), url(../images/bg.jpg);
+	background-position: left top, left top;
+    background-repeat: no-repeat, repeat;
+}
+a{text-decoration:none;}
+li{list-style:none;}
+h1, h2, h3, p, ul, li, dl, dt{ margin:0; padding:0;}
+h1, h2, h3, dt{font-family: "ROCK", sans-serif; color:#be2659}
+.clear{clear:both;}	
+
+.wrapper{background:#FFF; box-shadow:1px 0px 5px #000; width:1170px; padding:25px; margin:20px auto;}
+header{margin-bottom:20px; height:165px;}
+.logo{float:left; background:url(../images/logo.png) top left no-repeat; width:300px; height:165px;}
+.logo a {display:block; width:300px; height:165px;}
+
+/*-- Navigation CSS --*/
+nav{width:775px; float:right; height:50px; background:#cc3467; border:2px solid #be2659; margin-top:50px;}
+.navigation {margin:0px auto; overflow:hidden;}
+nav li {height:48px; float:left; line-height:48px; border-right:1px solid #be2659;}
+nav li:last-child {border-right:none;}
+nav li a{height:46px; display:block; color:#FFF; padding:0 42px; font-size:16px; text-transform:uppercase; font-family: "ROCK", sans-serif; font-weight:bold;}
+nav li a.home{background:url(../images/home-icon.png) center center no-repeat; width:32px;}
+nav li a.home:hover {background:url(../images/home-icon.png) center center no-repeat;}
+nav li a.home .active {background:url(../images/home-icon.png) center center no-repeat;}
+nav li a img {margin:14px 0 0}
+nav li a:hover {background:#FFF; color:#be2659;}
+nav li a.active{background: #FFF; color:#be2659}
+
+/*-- Banner CSS --*/
+.banner{height:350px; margin-bottom:20px;}
+.banner-wrapper{width:1120px; margin:0px auto;}
+
+/*-- Content CSS --*/
+section.categories {margin-bottom: 20px; overflow:hidden}
+section.categories li{float:left; width:32.142%; margin-right:1.785%;}
+section.categories li:last-child{margin-right: 0;}
+section.categories img{width:100%;}
+
+section.gallery h1 {margin-bottom:20px; text-align:center}
+section.gallery li{float:left; width:23.75%; margin:0 1.607% 10px 0;}
+section.gallery li:nth-child(4n){margin-right: 0;}
+section.gallery img{width:100%;}
+
+.inner-banner{height:150px; margin-bottom:20px;}
+.women-images li{float:left; margin:0 20px 11px 0;}
+.women-images li img {border:2px solid #CCCCCC}
+.women-images li:nth-child(3), .women-images li:nth-child(5){margin-right:0px;}
+
+.men-images li{float:left; margin:0 20px 11px 0;}
+.men-images li:first-child{float:right;margin-right:0px;}
+.men-images li img {border:2px solid #CCCCCC}
+.men-images li:nth-child(3), .women-images li:nth-child(5){margin-right:0px;}
+
+.kids-images li{float:left; margin:0 20px 11px 0;}
+.kids-images li img {border:2px solid #CCCCCC}
+.kids-images li:nth-child(3), .kids-images li:nth-child(5){margin-right:0px;}
+
+
+.contact{margin:0 auto; width:750px;}
+.contact address {float:left; line-height: 20px; font-style: normal; font-size:20px; color:#be2659;font-family: "ROCK", sans-serif; margin-top:100px;}
+.contact .building {float:left; width:300px; margin-right:50px;} 
+.contact .building img {border:1px solid #CCC;} 
+.contact h2 {color:#666666} 
+
+/*************************************
+Footer CSS
+*************************************/ 
+footer{padding:10px 0; color:#be2659; font-family: "ROCK", sans-serif; font-size:16px; text-align:center; font-weight:bold;}
+footer a {color:#be2659;}
+footer a:hover {text-decoration: underline;}
+.footer-wrapper{width:1120px; margin:0 auto; overflow:hidden;}
+.copyright{font-size:13px;}
+	
+
